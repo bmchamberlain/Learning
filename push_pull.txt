@@ -1,0 +1,8 @@
+git clone $repo
+git add .
+git status .
+git commit -m "comment"
+
+git remote add origin https://github.com/bmchamberlain/test.git
+git branch -M main
+git push -u origin main
